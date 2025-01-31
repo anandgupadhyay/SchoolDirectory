@@ -12,6 +12,7 @@
 		1782A7122D4C9C6500D429EF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782A7112D4C9C6500D429EF /* Item.swift */; };
 		1782A7142D4C9C6600D429EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1782A7132D4C9C6600D429EF /* Assets.xcassets */; };
 		1782A7182D4C9C6600D429EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1782A7172D4C9C6600D429EF /* Preview Assets.xcassets */; };
+		1782A7212D4CA49D00D429EF /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782A7202D4CA49D00D429EF /* PopoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1782A7132D4C9C6600D429EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1782A7152D4C9C6600D429EF /* SchoolDirectory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchoolDirectory.entitlements; sourceTree = "<group>"; };
 		1782A7172D4C9C6600D429EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1782A7202D4CA49D00D429EF /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1782A71E2D4C9C7500D429EF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1782A7202D4CA49D00D429EF /* PopoverViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1782A7212D4CA49D00D429EF /* PopoverViewController.swift in Sources */,
 				1782A7102D4C9C6500D429EF /* ContentView.swift in Sources */,
 				1782A7122D4C9C6500D429EF /* Item.swift in Sources */,
 				1782A70E2D4C9C6500D429EF /* SchoolDirectoryApp.swift in Sources */,
