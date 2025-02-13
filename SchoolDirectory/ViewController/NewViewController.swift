@@ -1,6 +1,15 @@
 import UIKit
 import SwiftUI
 
+/*
+What This Example Does:
+Defines a User struct containing a name and system image.
+Creates a UITableView and populates it with user data.
+Uses UIHostingConfiguration inside cell.contentConfiguration to embed SwiftUI components.
+Displays an avatar (image) and name for each user inside a HStack.
+This approach keeps your UIKit code clean while leveraging the power of SwiftUI inside UITableViewCell
+*/
+
 
 // Sample Data Model
 struct User {
